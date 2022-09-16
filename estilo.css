@@ -1,0 +1,52 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.body{
+background-color: greenyellow;
+display: grid;
+grid-template-rows: 100px 70px 800px 400px 20px;
+grid-template-columns: 1fr 1fr 1fr 1fr;
+grid-template-areas: 
+"cabeza cabeza cabeza cabeza"
+"nav nav nav nav"
+"contenido contenido contenido aside"
+"section-1 section-2 section-3 aside"
+"footer footer footer footer"
+;
+}
+.cabeza{
+    background-color: red;
+grid-area: cabeza;
+}
+.nav{
+background-color: aquamarine;
+grid-area: nav;
+}
+.contenido{
+background-color: grey;
+grid-area: contenido;
+}
+.section{
+
+}
+.section-1{
+background-color: yellow;
+grid-area: section-1;
+}
+.section-2{
+background-color: brown;
+grid-area: section-2;
+}
+.section-3{
+background-color: orange;
+grid-area: section-3;
+}
+.aside{
+background-color: blue;
+grid-area: aside;
+}
+.footer{
+background-color: violet;
+grid-area: footer;
+}
