@@ -3,23 +3,34 @@
     margin: 0;
 }
 .body{
-background-color: greenyellow;
-display: grid;
-grid-template-rows: 100px 70px 300px 200px 20px;
-grid-template-columns: 1fr 1fr 1fr 1fr;
-grid-template-areas: 
-"cabeza cabeza cabeza cabeza"
-"nav nav nav nav"
-"contenido contenido contenido aside"
-"section-1 section-2 section-3 aside"
-"footer footer footer footer"
+    
+    text-align: center;
+    background-color: greenyellow;
+    display: grid;
+    grid-template-rows: 100px 70px 300px 200px 20px;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-areas: 
+    "cabeza cabeza cabeza cabeza"
+    "nav nav nav nav"
+    "contenido contenido contenido aside"
+    "section-1 section-2 section-3 aside"
+    "footer footer footer footer"
 ;
 }
 .cabeza{
+    
     background-color: red;
-grid-area: cabeza;
+    grid-area: cabeza;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-content: stretch;
+    justify-content: space-around;
+    align-items: center;
+    border-radius: 20px;
 }
 .nav{
+    
 background-color: aquamarine;
 grid-area: nav;
 }
