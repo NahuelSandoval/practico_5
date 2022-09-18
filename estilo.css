@@ -30,19 +30,22 @@
     border-radius: 20px;
 }
 .nav{
-    
+border-radius: 20px;
 background-color: aquamarine;
 grid-area: nav;
+box-shadow: 3rem;
 }
 .contenido{
 background-color: grey;
 grid-area: contenido;
+border-radius: 20px;
 }
 .section-1{
 background-color: yellow;
 grid-area: section-1;
 }
 .section-2{
+border-radius: 20px;
 background-color: brown;
 grid-area: section-2;
 }
@@ -53,8 +56,10 @@ grid-area: section-3;
 .aside{
 background-color: blue;
 grid-area: aside;
+border-radius: 20px;
 }
 .footer{
+border-radius: 20px;
 background-color: violet;
 grid-area: footer;
 }
